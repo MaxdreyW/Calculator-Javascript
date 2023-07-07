@@ -1,0 +1,14 @@
+.bottom button:hover,
+.bottom button:focus {
+  background-color: orange;
+  color: white;
+}
+.dark-mode:hover {
+  background-color: rgb(52, 52, 52);
+}
+
+.equals#equals:focus {
+  background-color: rgb(52, 52, 52);
+  border-color: rgb(52, 52, 52);
+  color: rgb(221, 129, 18);
+}

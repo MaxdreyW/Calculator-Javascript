@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="hover.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <main>
+      <div class="container main">
+        <div class="container top">
+          <button class="dark-mode">
+            <i class="fa fa-moon-o" style="font-size: 48px; color: white"></i>
+          </button>
+          <div class="result"></div>
+        </div>
+        <div class="container bottom">
+          <div class="row row1">
+            <button><h2>C</h2></button>
+            <button><i class="fas fa-backspace"></i></button>
+            <button><i class="fa-solid fa-percent"></i></button>
+            <button><i class="fa-solid fa-divide"></i></button>
+          </div>
+          <div class="row row2">
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button><i class="fa-solid fa-xmark"></i></button>
+          </div>
+          <div class="row row3">
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button><i class="fa-solid fa-minus"></i></button>
+          </div>
+          <div class="row row4">
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button><i class="fa-solid fa-plus"></i></button>
+          </div>
+          <div class="row row5">
+            <button class="calcu">
+              <i class="fa-solid fa-calculator"></i>
+            </button>
+            <button>0</button>
+            <button class="titik">.</button>
+            <button class="equals" id="equals">
+              <i class="fa-solid fa-equals"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="main.js"></script>
+</html>
