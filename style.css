@@ -6,7 +6,8 @@
 }
 
 body {
-  background-color: rgb(13, 15, 37);
+  background-color: white;
+  color: black;
 }
 main {
   display: flex;
@@ -21,7 +22,7 @@ main {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: #222222;
+  background-color: #dcdcdc;
 }
 .container {
   display: flex;
@@ -65,24 +66,24 @@ main {
 button {
   cursor: pointer;
 }
-.bottom button {
+.bottom .button {
   font-size: 2.5em;
   border-radius: 50%;
   border: 2.5px solid orange;
   background-color: none;
   background: none;
-  color: #fff;
+  color: #222222;
 }
-.row1 button,
-.row2 button,
-.row3 button,
-.row4 button,
-.row5 button {
+.row1 .button,
+.row2 .button,
+.row3 .button,
+.row4 .button,
+.row5 .button {
   width: 19.99999999999999%;
   height: 100%;
 }
 
-button.equals#equals {
+.button.equals#equals {
   background-color: rgb(221, 129, 18);
   border: none;
 }
@@ -102,16 +103,16 @@ button.equals#equals {
   height: 60%;
   border: none;
   outline: none;
-  background-color: #222222;
+  background-color: #dcdcdc;
   text-align: right;
   padding-top: 100px;
   font-size: 4.5em;
   overflow: hidden;
   padding-right: 20px;
-  color: rgb(189, 189, 189);
+  color: rgb(0, 0, 0);
 }
 
-.dark-mode {
+#dark-mode-icon {
   position: absolute;
   width: 80px;
   height: 80px;
@@ -121,5 +122,22 @@ button.equals#equals {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #222222;
   top: 2%;
+}
+
+.main-dark {
+  background-color: #121212;
+  color: white;
+}
+.result-dark {
+  background-color: #121212;
+  color: white;
+}
+.button.Button-dark {
+  color: #fff;
+}
+.dark-mode {
+  background-color: #222222;
+  color: white;
 }

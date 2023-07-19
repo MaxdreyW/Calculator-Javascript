@@ -3,7 +3,7 @@
   background-color: orange;
   color: white;
 }
-.dark-mode:hover {
+#dark-mode-icon:hover {
   background-color: rgb(52, 52, 52);
 }
 

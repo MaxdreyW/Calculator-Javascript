@@ -28,56 +28,56 @@
     <main>
       <div class="container main">
         <div class="container top">
-          <button class="dark-mode">
-            <i
-              class="fa fa-moon-o"
-              style="font-size: 48px; color: white"
-            ></i></button
-          ><input type="text" class="result" />
+          <div id="dark-mode-icon">
+            <i class="fa fa-moon-o" style="font-size: 48px; color: white"></i>
+          </div>
+          <input type="text" class="result" />
         </div>
         <div class="container bottom">
           <div class="row row1">
-            <button data-value="ac"><h2 data-value="ac">AC</h2></button>
-            <button data-value="del">
-              <i class="fas fa-backspace" data-value="del"></i>
+            <button class="button" data-value="ac">
+              <h2 data-value="ac">AC</h2>
             </button>
-            <button data-value="%">
-              <i class="fa-solid fa-percent" data-value="%"></i>
+            <button class="button" data-value="del">
+              <i class="fas fa-backspace" class="button" data-value="del"></i>
             </button>
-            <button data-value="/">
-              <i class="fa-solid fa-divide" data-value="/"></i>
+            <button class="button" data-value="%">
+              <i class="fa-solid fa-percent" class="button" data-value="%"></i>
+            </button>
+            <button class="button" data-value="/">
+              <i class="fa-solid fa-divide" class="button" data-value="/"></i>
             </button>
           </div>
           <div class="row row2">
-            <button data-value="7">7</button>
-            <button data-value="8">8</button>
-            <button data-value="9">9</button>
-            <button data-value="*">
-              <i class="fa-solid fa-xmark" data-value="*"></i>
+            <button class="button" data-value="7">7</button>
+            <button class="button" data-value="8">8</button>
+            <button class="button" data-value="9">9</button>
+            <button class="button" data-value="*">
+              <i class="fa-solid fa-xmark" class="button" data-value="*"></i>
             </button>
           </div>
           <div class="row row3">
-            <button data-value="4">4</button>
-            <button data-value="5">5</button>
-            <button data-value="6">6</button>
-            <button data-value="-">
-              <i class="fa-solid fa-minus" data-value="-"></i>
+            <button class="button" data-value="4">4</button>
+            <button class="button" data-value="5">5</button>
+            <button class="button" data-value="6">6</button>
+            <button class="button" data-value="-">
+              <i class="fa-solid fa-minus" class="button" data-value="-"></i>
             </button>
           </div>
           <div class="row row4">
-            <button data-value="1">1</button>
-            <button data-value="2">2</button>
-            <button data-value="3">3</button>
-            <button data-value="+">
-              <i class="fa-solid fa-plus" data-value="+"></i>
+            <button class="button" data-value="1">1</button>
+            <button class="button" data-value="2">2</button>
+            <button class="button" data-value="3">3</button>
+            <button class="button" data-value="+">
+              <i class="fa-solid fa-plus" class="button" data-value="+"></i>
             </button>
           </div>
           <div class="row row5">
-            <button data-value="00">00</button>
-            <button data-value="0">0</button>
-            <button class="titik" data-value=".">.</button>
-            <button class="equals" id="equals" data-value="=">
-              <i class="fa-solid fa-equals" data-value="="></i>
+            <button class="button" data-value="00">00</button>
+            <button class="button" data-value="0">0</button>
+            <button class="button" data-value=".">.</button>
+            <button id="equals" class="button" data-value="=">
+              <i class="fa-solid fa-equals" class="button" data-value="="></i>
             </button>
           </div>
         </div>
@@ -85,4 +85,5 @@
     </main>
   </body>
   <script src="main.js"></script>
+  <script src="dark-mode.js"></script>
 </html>
