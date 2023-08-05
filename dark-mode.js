@@ -9,3 +9,5 @@ DarkMode.addEventListener("click", () => {
   body.classList.toggle("dark-mode");
   Button.forEach((b) => b.classList.toggle("Button-dark"));
 });
+
+export default DarkMode;
