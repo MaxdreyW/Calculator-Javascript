@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="../CSS/hover.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../CSS/style-temperature.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <main>
+      <div class="container main">
+        <div class="option">
+          <div class="boxes">
+            <div class="grid-item">
+              <a class="link" href="numeral.html">
+                <i class="bi bi-file-earmark-binary"></i>
+                <p>Numeral System</p>
+              </a>
+            </div>
+            <div class="grid-item">
+              <a class="link" href="temperature.html">
+                <i class="bi bi-thermometer-half"></i>
+                <p>Temperature</p>
+              </a>
+            </div>
+            <div class="grid-item">
+              <a class="link" href="data.html">
+                <i class="bi bi-file-bar-graph"></i>
+                <p>Data</p>
+              </a>
+            </div>
+            <div class="grid-item">
+              <a class="link" href="length.html">
+                <i class="fa-solid fa-ruler-horizontal"></i>
+                <p>Length</p>
+              </a>
+            </div>
+            <div class="grid-item">
+              <a class="link" href="mass.html">
+                <i class="fa-solid fa-weight-hanging"></i>
+                <p>Mass</p>
+              </a>
+            </div>
+            <div class="grid-item">
+              <a class="link" href="speed.html">
+                <i class="fa-solid fa-gauge-high"></i>
+                <p>Speed</p>
+              </a>
+            </div>
+            <div class="grid-item">
+              <a class="link" href="time.html">
+                <i class="bi bi-clock"></i>
+                <p>Time</p>
+              </a>
+            </div>
+            <div class="grid-item">
+              <a class="link" href="volume.html">
+                <i class="bi bi-box"></i>
+                <p>Volume</p>
+              </a>
+            </div>
+            <div class="grid-item">
+              <a class="link" href="Calculator.html">
+                <i class="bi bi-calculator-fill"></i>
+                <p>Calculator</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="container top">
+          <div id="dark-mode-icon">
+            <i class="fa fa-moon-o" style="font-size: 48px; color: white"></i>
+          </div>
+          <div class="hamburger">
+            <span class="bar"></span>
+          </div>
+          <input type="text" class="result" />
+        </div>
+        <div class="container bottom">
+          <div class="row row1">
+            <button class="button" data-value="ac">
+              <h2 data-value="ac">AC</h2>
+            </button>
+            <button class="button" data-value="del">
+              <i class="fas fa-backspace" class="button" data-value="del"></i>
+            </button>
+            <button class="button" data-value="%">
+              <i class="fa-solid fa-percent" class="button" data-value="%"></i>
+            </button>
+            <button class="button" data-value="/">
+              <i class="fa-solid fa-divide" class="button" data-value="/"></i>
+            </button>
+          </div>
+          <div class="row row2">
+            <button class="button" data-value="7">7</button>
+            <button class="button" data-value="8">8</button>
+            <button class="button" data-value="9">9</button>
+            <button class="button" data-value="*">
+              <i class="fa-solid fa-xmark" class="button" data-value="*"></i>
+            </button>
+          </div>
+          <div class="row row3">
+            <button class="button" data-value="4">4</button>
+            <button class="button" data-value="5">5</button>
+            <button class="button" data-value="6">6</button>
+            <button class="button" data-value="-">
+              <i class="fa-solid fa-minus" class="button" data-value="-"></i>
+            </button>
+          </div>
+          <div class="row row4">
+            <button class="button" data-value="1">1</button>
+            <button class="button" data-value="2">2</button>
+            <button class="button" data-value="3">3</button>
+            <button class="button" data-value="+">
+              <i class="fa-solid fa-plus" class="button" data-value="+"></i>
+            </button>
+          </div>
+          <div class="row row5">
+            <button class="button" data-value="00">00</button>
+            <button class="button" data-value="0">0</button>
+            <button class="button" data-value=".">.</button>
+            <button id="equals" class="button" data-value="=">
+              <i class="fa-solid fa-equals" class="button" data-value="="></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="../JAVASCRIPT/calcu-main.js" type="module"></script>
+</html>

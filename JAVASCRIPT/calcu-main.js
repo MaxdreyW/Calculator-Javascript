@@ -1,11 +1,8 @@
-// import modeGelap from "./dark-mode.js";
 import DarkMode from "./dark-mode.js";
-
+import Hamburger from "./hamburger.js";
 const result = document.querySelector(".result");
 const buttons = document.querySelectorAll("button");
 const special = ["%", "/", "*", "-", "+", "="];
-
-DarkMode;
 
 console.log(buttons);
 
